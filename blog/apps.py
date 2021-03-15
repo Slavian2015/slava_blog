@@ -8,7 +8,6 @@ class BlogConfig(AppConfig):
 class ProfilesConfig(AppConfig):
     name = 'profiles'
 
-    def ready(self):
-        import blog.signals
+
 
 
